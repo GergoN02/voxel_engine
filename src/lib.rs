@@ -372,7 +372,7 @@ pub async fn run() {
             ref event,
             window_id,
         } if window_id == window.id() => {
-            if !state.input(event) {
+            if !state.input() {
                 match event {
                     WindowEvent::CloseRequested
                     | WindowEvent::KeyboardInput {
