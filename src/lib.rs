@@ -298,8 +298,9 @@ impl State {
         }
     }
 
-    fn input(&mut self, event: &WindowEvent) -> bool {
-        todo!()
+    fn input(&mut self) -> bool {
+        //event: &WindowEvent
+        false
     }
 
     fn update(&mut self) {
